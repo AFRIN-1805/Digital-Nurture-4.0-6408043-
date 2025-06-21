@@ -9,7 +9,6 @@ class Circle implements Shape {
         System.out.println("Drawing a Circle");
     }
 }
-
 class Rectangle implements Shape {
     public void draw() {
         System.out.println("Drawing a Rectangle");
@@ -35,6 +34,6 @@ public class FactoryDemo {
         s1.draw(); // Drawing a Circle
 
         Shape s2 = factory.getShape("RECTANGLE");
-        s2.draw(); // Drawing a Rectangle
+        s2.draw(); // Drawing a Rectangle.
     }
 }
