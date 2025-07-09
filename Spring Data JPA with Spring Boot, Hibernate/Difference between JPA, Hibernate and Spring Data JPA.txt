@@ -1,0 +1,6 @@
+| Feature          | JPA               | Hibernate                      | Spring Data JPA                  |
+| ---------------- | ----------------- | ------------------------------ | -------------------------------- |
+| Type             | Specification     | Implementation                 | Abstraction over JPA             |
+| Provides         | ORM standard APIs | JPA implementation             | Repository abstraction           |
+| Boilerplate Code | Less              | Medium                         | Minimal                          |
+| Custom Queries   | JPQL              | HQL (Hibernate Query Language) | Query method names, JPQL, native |
